@@ -1,0 +1,214 @@
+body 
+{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+
+.navbar 
+{
+  background: purple;
+  padding: 22px;
+  text-align: center;
+}
+.navbar a 
+{
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar a:hover 
+{
+  color: magenta;
+}
+
+.navbar a.active {
+  border-bottom: 3px solid ;  
+  border-color: white;
+  padding-bottom: 5px;           
+}
+
+
+/* Hero Portion */
+
+.hero 
+{
+  position: relative;
+  text-align: center;
+
+}
+.hero img 
+{
+  width: 100%;
+  height: 550px;   
+  object-fit: cover; 
+}
+.website-name 
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(159, 55, 149);
+  font-size: 3em;
+}
+
+/* Products preview */
+
+.products-preview 
+{
+  position: relative;
+  text-align: center;
+}
+
+.products-preview img 
+{
+  width: 100%;
+  height: 550px;   
+  object-fit: cover;
+}
+.products-preview .overlay 
+{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #6A1B9A;
+  font-size: large;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;   
+  font-size: 1.2em;  
+  font-weight: bold;    
+  background: purple;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;  
+}
+
+.button:hover 
+{
+  background: blueviolet;
+}
+
+
+/* Products page */
+
+.product-list 
+{
+  display: flex;
+  flex-direction: column;
+   margin: 10px 0;
+}
+.product 
+{
+  background: #f0e7ef;
+  padding: 20px;
+  margin: 10px 0;
+  margin: 3px 0; 
+  border: 1px solid #ddd;
+}
+
+.product:nth-child(1) { background: #f3e5f5; } 
+.product:nth-child(2) { background: #ede7f6; } 
+.product:nth-child(3) { background: #fce4ec; } 
+.product:nth-child(4) { background: #e8f5e9; } 
+.product:nth-child(5) { background: #fff8e1; } 
+
+.product img 
+{
+  width: 200px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Contact page */
+
+
+.contact-box 
+{
+  background: #f4ddf7;
+  padding: 20px;
+  margin: 50px auto;
+  width: 400px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+
+.social-media img 
+{
+  width: 40px;
+  margin: 10px;
+}
+
+.footer{
+    background-color: #f0e7ef;
+}
+
+.footer {
+  background-color: #f0e7ef;
+  text-align: center;   
+  padding: 20px 0;     
+}
+
+
+
+
+
+.chatbot_c
+{
+   width: 305px;
+   background: pink;
+   border: 1px solid black;
+   border-radius: 5px;
+   overflow: hidden;
+   position: fixed;
+   bottom: 20px;
+   right:20px ;
+   box-shadow:0 0 10px rgba(0,0,0,0.2); 
+   z-index: 999;
+}
+.chat_w
+{
+    height: 300px;
+    overflow-y: auto;
+    padding: 11px;
+    background: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.input
+{
+display: flex;
+border-top: 1px solid whitesmoke;
+}
+input[type=text]
+{
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+
+
+}
+button
+{
+    padding: 10px 15px;
+    background-color: pink;
+    color: azure;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover 
+{
+    background-color: rgb(128, 75, 6);
+}
+

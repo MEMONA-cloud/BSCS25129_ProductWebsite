@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="BSCS25129_style.css">
+</head>
+<body>
+
+
+
+  <div class="chatbot_c" id="chatbox">
+        <div id="chat_log" class="chat_w"></div>
+        <div class="input">
+          <input type="text" id="user-input" placeholder="Type your message..." onkeydown="if(event.key === 'Enter'){ sendMessage(); }">
+
+          <button onclick="sendmessage()">Send</button>
+
+        </div>
+      </div>
+
+
+  <header>
+    <nav class="navbar">
+      <a href="BSCS25129_Home.html" class="active" >HOME</a>
+      <a href="BSCS25129_Products.html" >PRODUCTS</a>
+      <a href="BSCS25129_Contact.html">ABOUT US</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="BSCS25129_image0.jpg" alt="Cover Image">
+    <h1 class="website-name">MONA BAKES</h1>
+  </section>
+
+  <section class="products-preview">
+    <img src="BSCS25129_image1.jpg" alt="Products Preview">
+    <div class="overlay">
+      <h2>Explore Our Menu</h2>
+      <a href="BSCS25129_Products.html" class="button">MENU</a>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <p>📞 Cell: 0337-0450322</p>
+    <p>📧 Email: memonanaveed20gmail.com</p>
+    <p>📍 Location: Lahore, Punjab</p>
+    <p id="year">2025</p>
+    </footer>
+
+  <script src="BSCS25129_script.js"></script>
+</body>
+</html>
